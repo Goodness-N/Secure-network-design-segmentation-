@@ -1,59 +1,33 @@
-# Secure Network Design & Segmentation
-
-## Project Overview
-
-This project involved designing and configuring a segmented network environment 
-using Cisco Packet Tracer.
-
-The goal was to organize the network into separate VLANs, assign appropriate IP addresses, configure the network devices, and verify connectivity while maintaining traffic isolation between different network segments.
-
-## Objectives
-
-- Design a functional network topology
-- Configure VLANs for network segmentation
-- Assign IP addresses to network devices
-- Configure router and switches
-- Establish communication within the appropriate network segments
-- Verify isolation between different VLANs
-- Troubleshoot network connectivity issues
-
-## Network Topology
-
-The network was designed using:
-
-- 1 Router
-- 2 Switches
-- 8 PCs
-- 4 VLANs
-
-Each department was assigned to its appropriate network segment.
-
-## Networking Concepts
-
-- VLANs
-- IP Addressing
-- Network Segmentation
-- Router Configuration
-- Switch Configuration
-- Network Connectivity
-- Network Troubleshooting
-
-## Testing & Verification
-
-Connectivity tests were performed to verify that:
-
-- Devices within the same VLAN could communicate.
-- Devices belonging to different VLANs were appropriately isolated.
-- IP addressing and network configuration were functioning as expected.
-
-## Tools Used
-
-- Cisco Packet Tracer
-
 ## Project Evidence
 
-Screenshots, network topology diagrams, configuration details, and other project evidence will be added to this repository.
+The project evidence below documents the network topology, IP configuration, router configuration, and connectivity testing performed during the project.
 
-## Key Learning Outcomes
+### 1. Network Topology
 
-Through this project, I gained practical experience in network design, VLAN configuration, IP addressing, network segmentation, connectivity testing, and troubleshooting using Cisco Packet Tracer.
+The completed network topology consists of one router, two switches, and eight PCs.
+
+![Network Topology](IMG_0239.png)
+
+### 2. IP Configuration
+
+Example of static IP configuration on a network device.
+
+![IP Configuration](IMG_0236.png)
+
+### 3. Router Configuration
+
+Router interface configuration and verification using the Cisco IOS command line.
+
+![Router Configuration](IMG_0234.png)
+
+### 4. Connectivity Test – Packet Loss
+
+A connectivity test to `192.168.20.2` initially showed 3 packets received and 1 packet lost (25% packet loss).
+
+![Connectivity Test – Packet Loss](IMG_0227.png)
+
+### 5. Connectivity Test – Successful
+
+A final connectivity test to `192.168.10.2` showed successful communication with 4 packets received and 0 packets lost (0% packet loss).
+
+![Connectivity Test – Successful](IMG_0228.png)
